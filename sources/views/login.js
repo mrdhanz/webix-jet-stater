@@ -8,7 +8,7 @@ export default class LoginView extends JetView {
       borderless: false,
       margin: 10,
       rows: [
-        { type: "header", template: this.app.config.name },
+        { type: "header", css: 'logo' },
         {
           view: "text",
           name: "login",
@@ -49,9 +49,6 @@ export default class LoginView extends JetView {
     };
 
     return {
-      css: {
-        background: "../assets/images/logo.png",
-      },
       cols: [
         {},
         {
