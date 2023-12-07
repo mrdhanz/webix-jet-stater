@@ -30,6 +30,12 @@ export default class LoginView extends JetView {
         },
         {
           cols: [
+            {
+                view: "checkbox",
+                name: "remember",
+                labelRight: "Remember",
+                labelWidth: 0
+            },
           ],
         },
 
